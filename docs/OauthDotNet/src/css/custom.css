@@ -1,0 +1,50 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #1f4b99;
+  --ifm-color-primary-dark: #1b4186;
+  --ifm-color-primary-darker: #183c7c;
+  --ifm-color-primary-darkest: #123260;
+  --ifm-color-primary-light: #2758b0;
+  --ifm-color-primary-lighter: #2c60bd;
+  --ifm-color-primary-lightest: #3670d9;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(31, 75, 153, 0.06);
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --ifm-navbar-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #5fa1ff;
+  --ifm-color-primary-dark: #4b8eed;
+  --ifm-color-primary-darker: #427fce;
+  --ifm-color-primary-darkest: #375fa0;
+  --ifm-color-primary-light: #76afff;
+  --ifm-color-primary-lighter: #8abaff;
+  --ifm-color-primary-lightest: #b7d3ff;
+  --docusaurus-highlighted-code-line-bg: rgba(95, 161, 255, 0.08);
+}
+
+.navbar {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+[data-theme='dark'] .navbar {
+  background: rgba(13, 17, 23, 0.85);
+}
+
+.hero--primary {
+  background: radial-gradient(circle at 20% 20%, rgba(54, 112, 217, 0.15), transparent 35%),
+    radial-gradient(circle at 80% 10%, rgba(47, 88, 176, 0.15), transparent 30%),
+    linear-gradient(135deg, #0d1b3d 0%, #152a52 35%, #0f1f44 100%);
+}
+
+.hero--primary .button.button--secondary {
+  color: #0f1f44;
+}

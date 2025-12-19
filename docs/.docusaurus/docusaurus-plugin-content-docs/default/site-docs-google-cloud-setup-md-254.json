@@ -16,7 +16,7 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Overview",
-    "permalink": "/"
+    "permalink": "/overview"
   },
   "next": {
     "title": "Backend Setup",

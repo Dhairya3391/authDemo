@@ -88,7 +88,7 @@ export default {
           "items": [
             {
               "label": "Overview",
-              "to": "/"
+              "to": "/overview"
             },
             {
               "label": "Backend (.NET)",

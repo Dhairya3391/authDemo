@@ -14,15 +14,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '362'),
+    component: ComponentCreator('/', '94a'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', 'a0a'),
+        component: ComponentCreator('/', 'b73'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '05e'),
+            component: ComponentCreator('/', '616'),
             routes: [
               {
                 path: '/backend-dotnet',
@@ -49,6 +49,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/overview',
+                component: ComponentCreator('/overview', 'aff'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/running-locally',
                 component: ComponentCreator('/running-locally', 'f41'),
                 exact: true,
@@ -57,12 +63,6 @@ export default [
               {
                 path: '/troubleshooting',
                 component: ComponentCreator('/troubleshooting', '810'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/',
-                component: ComponentCreator('/', 'fc9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

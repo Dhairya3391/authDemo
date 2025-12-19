@@ -1,0 +1,25 @@
+{
+  "id": "frontend-vite",
+  "title": "Frontend Integration",
+  "description": "The Critical Rule: Include Credentials",
+  "source": "@site/docs/frontend-vite.md",
+  "sourceDirName": ".",
+  "slug": "/frontend-vite",
+  "permalink": "/frontend-vite",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Frontend Integration"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Backend Setup",
+    "permalink": "/backend-dotnet"
+  },
+  "next": {
+    "title": "Run Locally",
+    "permalink": "/running-locally"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "backend-dotnet",
+  "title": "Backend Setup",
+  "description": "What Actually Happens",
+  "source": "@site/docs/backend-dotnet.md",
+  "sourceDirName": ".",
+  "slug": "/backend-dotnet",
+  "permalink": "/backend-dotnet",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Backend Setup"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Google Cloud Setup",
+    "permalink": "/google-cloud-setup"
+  },
+  "next": {
+    "title": "Frontend Integration",
+    "permalink": "/frontend-vite"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "google-cloud-setup",
+  "title": "Google Cloud Setup",
+  "description": "For OAuth to work, Google needs to know about your app. You'll get two values:",
+  "source": "@site/docs/google-cloud-setup.md",
+  "sourceDirName": ".",
+  "slug": "/google-cloud-setup",
+  "permalink": "/google-cloud-setup",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Google Cloud Setup"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "Backend Setup",
+    "permalink": "/backend-dotnet"
+  }
+}

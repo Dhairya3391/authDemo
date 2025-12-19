@@ -1,0 +1,25 @@
+{
+  "id": "deployment",
+  "title": "Deployment (Advanced)",
+  "description": "Once your app works locally, you might want to deploy it to a real server. This guide covers the key changes needed.",
+  "source": "@site/docs/deployment.md",
+  "sourceDirName": ".",
+  "slug": "/deployment",
+  "permalink": "/deployment",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Deployment (Advanced)"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Run Locally",
+    "permalink": "/running-locally"
+  },
+  "next": {
+    "title": "Troubleshooting",
+    "permalink": "/troubleshooting"
+  }
+}

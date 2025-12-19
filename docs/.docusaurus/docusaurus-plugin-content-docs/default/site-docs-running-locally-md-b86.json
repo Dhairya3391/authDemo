@@ -1,0 +1,25 @@
+{
+  "id": "running-locally",
+  "title": "Run Locally",
+  "description": "Start Both Servers",
+  "source": "@site/docs/running-locally.md",
+  "sourceDirName": ".",
+  "slug": "/running-locally",
+  "permalink": "/running-locally",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Run Locally"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Frontend Integration",
+    "permalink": "/frontend-vite"
+  },
+  "next": {
+    "title": "Deployment (Advanced)",
+    "permalink": "/deployment"
+  }
+}
